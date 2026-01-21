@@ -1,0 +1,67 @@
+.header {
+    padding: 30px 21px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    border-bottom: 2px solid rgba(146, 115, 152, 0.2);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.nav a {
+    font-size: 14px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    color: #927398;
+    transition: color 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.nav a:hover {
+    color: #FFFFFF;
+    background: #F25C3A;
+    clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% + 46px), 0% calc(100% + 46px));
+}
+
+.contacts {
+    display: flex;
+}
+
+.social_networks {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding-right: 49px;
+}
+
+.phone {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-right: 39px;
+}
+
+.phone p {
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.button {
+    border: 1px solid #FFFFFF;
+    padding: 16px 7px;
+
+}

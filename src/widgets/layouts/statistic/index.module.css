@@ -1,0 +1,74 @@
+.statistic {
+    padding: 105px 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    align-items: center;
+}
+
+.main_text {
+    font-size: 126px;
+    font-family: 'CeraPro', sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.blocks {
+    display: flex;
+    gap: 30px;
+}
+
+.auditory {
+    border: 2px solid rgba(146, 115, 152, 0.5);
+    width: 570px;
+    height: 167px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.auditory h1 {
+    font-size: 50px;
+    font-family: 'CeraPro', sans-serif;
+    font-weight: 900;
+    color: #F25C3A;
+    text-transform: uppercase;
+}
+
+.auditory p {
+    font-size: 16px;
+    font-family: 'CeraPro', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.readers {
+    border: 2px solid rgba(146, 115, 152, 0.5);
+    width: 570px;
+    height: 167px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.readers h1 {
+    font-size: 50px;
+    font-family: 'CeraPro', sans-serif;
+    font-weight: 900;
+    color: #F25C3A;
+    text-transform: uppercase;
+}
+
+.readers p {
+    font-size: 16px;
+    font-family: 'CeraPro', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}

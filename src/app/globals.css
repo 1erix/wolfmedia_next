@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+
+
+body {
+    background-color: #2F1634;
+}
+
+h1 {
+    font-family: 'Cera Pro', sans-serif;
+}
+
+a {
+    font-family: 'Cera Pro', sans-serif;
+}
+
+p {
+    font-family: 'Cera Pro', sans-serif;
+}

@@ -1,7 +1,7 @@
 export default function Portfolio() {
     return (
         <div>
-            Portfolio
+            <p>portfolio</p>
         </div>
     )
 }

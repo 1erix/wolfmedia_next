@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.navLink {
+    font-size: 14px;
+    font-family: 'CeraPro', sans-serif;
+    font-weight: 500;
+    color: #927398;
+    transition: color 0.3s ease;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.navLink:hover {
+    color: #FFFFFF;
+}
+
+.navLink:active {
+    color: #FFFFFF;
+}
+
+.navLink.active::after {
+    content: '';
+    position: absolute;
+    bottom: -55.5;
+    left: 0;
+    right: 0;
+    height: 2;
+    background-color: #F25C3A;
+}

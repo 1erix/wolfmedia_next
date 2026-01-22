@@ -1,0 +1,6 @@
+.social_networks {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding-right: 49px;
+}

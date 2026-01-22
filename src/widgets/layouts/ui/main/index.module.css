@@ -1,0 +1,52 @@
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+.years {
+    display: flex;
+    align-items: center;
+
+}
+
+.description_arrow {
+    display: flex;
+}
+
+.title_arrow {
+    display: flex;
+}
+
+.title {
+    width: 65px;
+    height: 30px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2F1634;
+    text-transform: uppercase;
+    font-family: 'CeraPro';
+}
+
+.description {
+    padding: 3px 15px;
+    background-color: #503655;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'CeraPro';
+    color: #FFFFFF;
+}
+
+.text_wolfmedia {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 573px;
+}
+
+.text_wolfmedia p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'CeraPro';
+    color: #FFFFFF;
+}

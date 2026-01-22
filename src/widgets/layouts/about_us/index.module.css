@@ -1,0 +1,36 @@
+.about_us {
+    display: flex;
+    flex-direction: column;
+    padding: 120px 375px;
+    gap: 35px;
+}
+
+.all {
+    display: flex;
+    gap: 35px;
+}
+
+.text {
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'CeraPro';
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text_btn {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.text_btn button {
+    width: 180px;
+    height: 40px;
+    background-color: #F25C3A;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'CeraPro';
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

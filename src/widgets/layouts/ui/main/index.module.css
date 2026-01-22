@@ -1,40 +1,32 @@
 .all {
-    display: flex;
-    flex-direction: column;
+    position: relative;
 }
 
-.years {
-    display: flex;
-    align-items: center;
-
+.all::before {
+    content: '';
+    position: absolute;
+    left: 17%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: rgba(146, 115, 152, 0.5);
 }
 
-.description_arrow {
-    display: flex;
+.left_block {
+    position: relative;
 }
 
-.title_arrow {
-    display: flex;
-}
-
-.title {
-    width: 65px;
-    height: 30px;
-    background-color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 700;
-    color: #2F1634;
-    text-transform: uppercase;
-    font-family: 'CeraPro';
-}
-
-.description {
-    padding: 3px 15px;
-    background-color: #503655;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'CeraPro';
-    color: #FFFFFF;
+.left_block::before {
+    content: '';
+    position: absolute;
+    left: 91px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border: 2px solid #F25C3A;
+    border-radius: 50%;
 }
 
 .text_wolfmedia {
@@ -45,6 +37,48 @@
 }
 
 .text_wolfmedia p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'CeraPro';
+    color: #FFFFFF;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left_block {
+    display: flex;
+    gap: 42px;
+}
+
+.title_arrow {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.title_arrow p {
+    width: 65px;
+    height: 30px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'CeraPro';
+}
+
+.description_arrow {
+    display: flex;
+    align-items: first baseline;
+    text-align: left;
+    max-height: 375px;
+}
+
+.description_arrow p {
+    padding: 3px 15px;
+    background-color: #503655;
     font-size: 16px;
     font-weight: 400;
     font-family: 'CeraPro';

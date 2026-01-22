@@ -7,14 +7,15 @@ export const StatisticsByYears = () => {
     return (
         <div className={css.all}>
             {STATISTICS_BY_YEARS.map((item: StatisticsType, index) => (
-                <div className={css.years} key={index}>
+                <div key={index} className={css.left_block}>
                     <div className={css.title_arrow}>
-                        <p className={css.title}>{item.title}</p>
-                        <Image src='/statistic/triangle.svg' alt="" width={8} height={7} />
+                        <p>{item.title}</p>
+                        <Image src='/statistic/triangle.svg' alt='' width={8} height={7} />
                     </div>
+
                     <div className={css.description_arrow}>
-                        <Image src='/statistic/darkTriangle.png/' alt='' width={14} height={7} />
-                        <p className={css.description}>{item.description}</p>
+                        <Image src='/statistic/darkTriangle.svg' alt='' width={8} height={7} />
+                        <p>{item.description}</p>
                     </div>
                 </div>
             ))}
@@ -22,12 +23,13 @@ export const StatisticsByYears = () => {
     )
 }
 
+
 export const TextWolfMedia = () => {
     return (
         <div className={css.text_wolfmedia}>
             {TEXT_WOLFMEDIA.map((item: TextType, index) => (
                 <div key={index}>
-                    <p>{item.text}</p>
+                    <p dangerouslySetInnerHTML={{ __html: item.text }} />
                 </div>
             ))}
         </div>

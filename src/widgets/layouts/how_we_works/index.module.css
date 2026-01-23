@@ -1,11 +1,11 @@
-.communities {
+.how_we_works {
     display: flex;
     flex-direction: column;
     gap: 50px;
     padding: 0px 375px 120px 375px;
 }
 
-.communities h1 {
+.how_we_works h1 {
     font-size: 50px;
     font-weight: 900;
     font-family: 'CeraPro';
@@ -13,14 +13,7 @@
     text-transform: uppercase;
 }
 
-.mini_text {
+.text_images {
     display: flex;
-    justify-content: center;
-}
-
-.mini_text p {
-    font-size: 22px;
-    font-weight: 700;
-    font-family: 'CeraPro';
-    color: #927398;
+    gap: 30px;
 }

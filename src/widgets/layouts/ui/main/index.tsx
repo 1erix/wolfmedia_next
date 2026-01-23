@@ -15,7 +15,7 @@ export const StatisticsByYears = () => {
 
                     <div className={css.description_arrow}>
                         <Image src='/statistic/darkTriangle.svg' alt='' width={8} height={7} />
-                        <p>{item.description}</p>
+                        <div dangerouslySetInnerHTML={{ __html: item.description }}></div>
                     </div>
                 </div>
             ))}

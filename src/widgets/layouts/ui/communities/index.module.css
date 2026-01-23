@@ -1,0 +1,56 @@
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    width: 370px;
+    height: 234px;
+    padding: 38px 65px;
+    border: 2px solid#503655;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.card p {
+    font-family: 'CeraPro';
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.all_hover_content {
+    width: 370px;
+    height: 161px;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    padding: 26px 30px;
+}
+
+.hover_content {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    text-align: center;
+    align-items: center;
+}
+
+.hover_content p {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'CeraPro';
+    color: #927398;
+}
+
+.card_arrow img {
+    transform: rotate(270deg);
+    /* padding-bottom: 10px;
+    position: absolute; */
+}

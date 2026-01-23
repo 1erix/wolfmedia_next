@@ -1,0 +1,46 @@
+.left_part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 370px;
+}
+
+.form {
+    border: 2px solid #503655;
+    padding: 14px 35px;
+    text-align: center;
+    align-items: center;
+}
+
+.form div {
+    width: 320px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'CeraPro';
+    color: #FFFFFF;
+}
+
+.form span {
+    color: #F25C3A;
+}
+
+.right_part {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.big_image {
+    width: 770px;
+    height: 433px;
+    background-color: #FFFFFF;
+}
+
+.sliders {
+    display: flex;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+}

@@ -57,7 +57,7 @@ const CeraPro = localFont({
     },
   ],
   variable: '--font-cera-pro',
-  display: 'swap', // Добавьте это
+  display: 'swap',
 })
 
 export default function RootLayout({

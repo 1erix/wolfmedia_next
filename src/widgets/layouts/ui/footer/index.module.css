@@ -1,0 +1,34 @@
+.footer {
+    display: flex;
+    padding: 31px 375px;
+    align-items: center;
+    height: 112px;
+    background-color: #3B2341;
+    justify-content: space-between;
+}
+
+.p p {
+    font-size: 14px;
+    font-family: 'CeraPro';
+    font-weight: 400;
+    color: #927398;
+}
+
+.right_part {
+    display: flex;
+    gap: 49px;
+    align-items: center;
+}
+
+.phone {
+    display: flex;
+    gap: 20px;
+}
+
+.phone p {
+    font-size: 18px;
+    font-family: 'CeraPro';
+    font-weight: 500;
+    color: #927398;
+    text-transform: uppercase;
+}

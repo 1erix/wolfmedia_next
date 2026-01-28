@@ -1,0 +1,37 @@
+.help_brends {
+    padding: 0px 375px 120px 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.help_brends h1 {
+    font-size: 50px;
+    font-family: 'CeraPro';
+    font-weight: 900;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.p {
+    font-size: 16px;
+    font-family: 'CeraPro';
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    width: 323px;
+    height: 50px;
+    background-color: #F25C3A;
+    font-size: 16px;
+    font-family: 'CeraPro';
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

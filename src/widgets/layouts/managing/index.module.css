@@ -1,0 +1,26 @@
+.managing {
+    padding: 0px 375px 120px 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.managing h1 {
+    font-size: 50px;
+    font-family: 'CeraPro';
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.p {
+    font-size: 16px;
+    font-family: 'CeraPro';
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.cards_video {
+    display: flex;
+    justify-content: space-between;
+}

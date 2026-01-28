@@ -1,0 +1,64 @@
+.all {
+    display: flex;
+    gap: 30px;
+}
+
+.firstCard img {
+    padding-top: 77px;
+    width: 205px;
+    height: 340px;
+}
+
+.card {
+    height: 370px;
+    align-items: center;
+    width: 370px;
+    border: 2px solid#F25C3A;
+    padding: 22px 82px 0px 83px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.circle {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    background-color: #503655;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mans {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.card img {
+    position: relative;
+}
+
+.card_mail {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.mail {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.mail p {
+    font-size: 18px;
+    font-family: 'CeraPro';
+    font-weight: 400;
+    color: #FFFFFF;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+}

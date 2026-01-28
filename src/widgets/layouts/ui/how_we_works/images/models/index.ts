@@ -11,5 +11,5 @@ export const IMAGES: Array<ImageType> = [
     },
     {
         image: '/how_we_works/thirdImg.png'
-    }
+    },
 ]

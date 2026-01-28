@@ -1,0 +1,32 @@
+.cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    align-items: center;
+    width: 370px;
+}
+
+.bgd_img {
+    padding: 38px 135px;
+    align-items: center;
+    background-color: #3B2341;
+}
+
+.text {
+    width: 370px;
+    height: 85px;
+    text-align: center;
+    align-items: center;
+}
+
+.card p {
+    height: 90px;
+    padding: 19px 35px;
+    background-color: #503655;
+    font-size: 22px;
+    font-family: 'CeraPro';
+    font-weight: 700;
+    color: #FFFFFF;
+}

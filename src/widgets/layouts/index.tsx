@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "./ui/header";
 import css from './index.module.css'
+import Footer from "./ui/footer";
 
 export const Layout = ({ children }: Readonly<{ children: React.ReactNode; }>) => {
     return (
@@ -9,6 +10,8 @@ export const Layout = ({ children }: Readonly<{ children: React.ReactNode; }>) =
                 <Header />
 
                 {children}
+
+                <Footer />
             </div>
 
             <Image src='/background.png' alt="" width={1920} height={6088} />

@@ -1,0 +1,47 @@
+.cards_other {
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.p {
+    font-size: 22px;
+    font-family: 'CeraPro';
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.mini_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    border: 2px solid #503655;
+    width: 370px;
+    height: 74px;
+    padding: 15px 45px 15px 15px;
+}
+
+.card p {
+    font-size: 18px;
+    font-family: 'CeraPro';
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.cards_other button {
+    width: 190px;
+    height: 50px;
+    background-color: #F25C3A;
+    font-size: 16px;
+    font-family: 'CeraPro';
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

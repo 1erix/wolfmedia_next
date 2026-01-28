@@ -1,0 +1,49 @@
+.cards_text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 1170px;
+}
+
+.p {
+    font-size: 22px;
+    font-family: 'CeraPro';
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.big_cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    align-items: center;
+    width: 270px;
+    height: 313px;
+}
+
+.bgd_img {
+    padding: 41px 85px;
+    background-color: #3B2341;
+}
+
+.text {
+    width: 270px;
+    height: 131px;
+    text-align: center;
+    align-items: center;
+    background-color: #503655;
+}
+
+.text div {
+    padding: 18px 15px;
+    font-size: 18px;
+    font-family: 'CeraPro';
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.text span {
+    color: #F25C3A;
+}

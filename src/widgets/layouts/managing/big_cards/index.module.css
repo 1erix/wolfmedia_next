@@ -47,3 +47,35 @@
 .text span {
     color: #F25C3A;
 }
+
+@media(max-width: 900px) {
+    .big_cards {
+        gap: 20px;
+    }
+
+    .card {
+        width: 200px;
+        height: 307px;
+    }
+
+    .bgd_img {
+        width: 200px;
+        height: 165px;
+        padding: 38px 55px;
+    }
+
+    .bgd_img img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .text {
+        width: 200px;
+        height: 142px;
+    }
+
+    .text div {
+        font-size: 16px;
+        padding: 18px 12px;
+    }
+}

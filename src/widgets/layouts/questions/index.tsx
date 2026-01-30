@@ -9,9 +9,15 @@ export default function Questions() {
             <h2>Напиши нам!</h2>
 
             <div className={css.mans_mails}>
-                <Mans />
+                <div className={css.mans}>
+                    <Mans />
 
-                <Mails />
+                </div>
+
+                <div className={css.mails}>
+
+                    <Mails />
+                </div>
             </div>
         </section>
     )

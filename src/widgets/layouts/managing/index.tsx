@@ -26,6 +26,8 @@ export default function Managing() {
                         style={{ border: 'none' }}
                     />
                 </div>
+
+                <button className={css.btn}>подробнее</button>
             </div>
         </section>
     )

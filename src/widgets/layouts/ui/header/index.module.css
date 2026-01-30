@@ -41,3 +41,47 @@
     color: #FFFFFF;
     text-transform: uppercase;
 }
+
+@media(max-width: 900px) {
+    .header {
+        padding: 15px 20px;
+        align-items: center;
+        gap: 52px;
+        height: 70px;
+    }
+
+    .logo {
+        width: 165px;
+        height: 40px;
+    }
+
+    .logo img {
+        width: 165px;
+        height: 40px;
+        width: 100%;
+    }
+
+    .button {
+        font-size: 0;
+        color: transparent;
+        padding: 8px 17px;
+        width: 57px;
+        height: 40px;
+        background-image: url('/header/mail.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 24px 24px;
+    }
+
+    .phone {
+        padding-right: 20px;
+    }
+
+    .phone p {
+        white-space: nowrap;
+    }
+
+    .navigation {
+        gap: 30px;
+    }
+}

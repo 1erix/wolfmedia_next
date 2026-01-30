@@ -62,3 +62,48 @@
     color: #FFFFFF;
     border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
 }
+
+@media(max-width: 900px) {
+    .all {
+        gap: 20px;
+    }
+
+    .card_mail {
+        width: 419px;
+    }
+
+    .card {
+        width: 419px;
+        height: 419px;
+    }
+
+    .circle {
+        width: 329px;
+        height: 329px;
+    }
+
+    .mans {
+        width: 273px;
+        height: 391px;
+    }
+
+    .mans img {
+        width: 273px;
+        height: 391px;
+    }
+
+    .firstCard img {
+        width: 273px;
+        height: 385px;
+        padding-top: 30;
+    }
+
+    .mail img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .mail p {
+        font-size: 16px;
+    }
+}

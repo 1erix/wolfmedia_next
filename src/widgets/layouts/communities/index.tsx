@@ -6,10 +6,12 @@ export default function Communities() {
         <div className={css.communities}>
             <h1>Более 150 тематических сообществ</h1>
 
-            <CommunitiesData />
+            <div className={css.cards_minitext}>
+                <CommunitiesData />
 
-            <div className={css.mini_text}>
-                <p>Присутствуем на всех популярных платформах</p>
+                <div className={css.mini_text}>
+                    <p>Присутствуем на всех популярных платформах</p>
+                </div>
             </div>
         </div>
     )

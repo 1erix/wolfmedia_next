@@ -30,3 +30,13 @@
     font-weight: 400;
     color: #927398;
 }
+
+@media(max-width: 900px) {
+    .mails {
+        flex-direction: row;
+    }
+
+    .mail {
+        width: 264px;
+    }
+}

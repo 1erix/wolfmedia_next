@@ -45,3 +45,25 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
+@media(max-width: 900px) {
+    .cards_other button {
+        display: none;
+    }
+
+    .mini_cards {
+        flex-direction: row;
+        gap: 20px;
+        width: 860px;
+    }
+
+    .card {
+        width: 273px;
+        height: 74px;
+        padding: 15px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+}

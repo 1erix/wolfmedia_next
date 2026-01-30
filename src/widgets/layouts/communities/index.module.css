@@ -24,3 +24,24 @@
     font-family: 'CeraPro';
     color: #927398;
 }
+
+.cards_minitext {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media(max-width: 900px) {
+    .communities {
+        padding: 0px 20px 80px 20px;
+        gap: 60px;
+    }
+
+    .communities h1 {
+        font-size: 34px;
+    }
+
+    .cards_minitext {
+        gap: 26px;
+    }
+}

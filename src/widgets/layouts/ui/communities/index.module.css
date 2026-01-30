@@ -91,3 +91,25 @@
     padding-right: 7.8px;
     transform: rotate(270deg);
 }
+
+@media(max-width: 900px) {
+    .all {
+        gap: 20px;
+    }
+
+    .card {
+        width: 273px;
+        height: 172px;
+        gap: 5px;
+        padding: 22px 25px;
+    }
+
+    .card img {
+        width: 73px;
+        height: 73px;
+    }
+
+    .card p {
+        font-size: 26px;
+    }
+}

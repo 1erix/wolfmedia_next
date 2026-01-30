@@ -24,3 +24,23 @@
     display: flex;
     gap: 31px;
 }
+
+@media(max-width: 900px) {
+    .questions {
+        padding: 0px 20px 80px 20px;
+        gap: 30px;
+    }
+
+    .h1 {
+        font-size: 34px
+    }
+
+    .mans_mails {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .mans {
+        order: 2
+    }
+}

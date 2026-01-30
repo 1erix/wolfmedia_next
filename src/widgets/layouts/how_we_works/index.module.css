@@ -17,3 +17,18 @@
     display: flex;
     gap: 30px;
 }
+
+@media(max-width: 900px) {
+    .how_we_works {
+        padding: 0px 20px 80px 20px;
+        gap: 60px;
+    }
+
+    .how_we_works h1 {
+        font-size: 34px;
+    }
+
+    .text_images {
+        flex-direction: column;
+    }
+}

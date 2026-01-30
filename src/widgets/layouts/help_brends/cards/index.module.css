@@ -21,7 +21,7 @@
     align-items: center;
 }
 
-.card p {
+.text p {
     height: 90px;
     padding: 19px 35px;
     background-color: #503655;
@@ -29,4 +29,25 @@
     font-family: 'CeraPro';
     font-weight: 700;
     color: #FFFFFF;
+}
+
+@media(max-width: 900px) {
+    .cards {
+        gap: 22px;
+    }
+
+    .bgd_img {
+        padding: 27px 86px;
+        width: 272px;
+        height: 160px;
+    }
+
+    .text {
+        width: 272px;
+        height: 81px;
+    }
+
+    .text p {
+        padding: 17px 9px;
+    }
 }

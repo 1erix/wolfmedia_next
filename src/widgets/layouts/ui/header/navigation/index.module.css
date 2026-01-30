@@ -30,3 +30,13 @@
     height: 2;
     background-color: #F25C3A;
 }
+
+@media(max-width: 900px) {
+    .nav {
+        gap: 29px;
+    }
+
+    .navLink {
+        white-space: nowrap;
+    }
+}

@@ -100,3 +100,39 @@
 .arrow:hover {
     transform: scale(1.1);
 }
+
+@media(max-width: 900px) {
+    .left_part {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .form {
+        width: 419px;
+        height: 92px;
+        padding: 15px 34px;
+    }
+
+    .form div {
+        font-size: 16px;
+    }
+
+    .big_image {
+        display: flex;
+        justify-content: center;
+        width: 860px;
+        height: 484px;
+    }
+
+    .big_image_img {
+        width: 860px;
+        height: 484px;
+    }
+
+    .right_part {
+        gap: 20px;
+    }
+}

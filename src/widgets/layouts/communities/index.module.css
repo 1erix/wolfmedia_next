@@ -45,3 +45,21 @@
         gap: 26px;
     }
 }
+
+@media(max-width:600px) {
+    .communities {
+        padding: 0px 19px 80px 19px;
+    }
+
+    .cards_minitext {
+        gap: 30px;
+    }
+
+    .communities h1 {
+        font-size: 30px;
+    }
+
+    .mini_text p {
+        font-size: 18px;
+    }
+}

@@ -9,11 +9,13 @@ export default function AboutUs() {
                 <div className={css.text_btn}>
                     <TextWolfMedia />
 
-                    <button>подробнее</button>
+                    <button className={css.fst_btn}>подробнее</button>
                 </div>
 
                 <div className={css.statistics}>
                     <StatisticsByYears />
+
+                    <button className={css.scd_btn}>подробнее</button>
                 </div>
             </div>
         </section>

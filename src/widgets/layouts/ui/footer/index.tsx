@@ -9,6 +9,10 @@ export default function Footer() {
                 <Image src='/footer/logo.svg' alt='' width={208} height={51} />
             </div>
 
+            <div className={css.logo2}>
+                <Image src='/footer/footer_logo2.svg' alt='' width={51} height={51} />
+            </div>
+
             <div className={css.p}>
                 <p>Copyright 2019 (c) All rights reserved.</p>
             </div>

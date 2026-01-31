@@ -104,3 +104,17 @@
         height: 9px;
     }
 }
+
+@media(max-width: 600px) {
+    .text_wolfmedia {
+        width: 560px;
+    }
+
+    .left_block::before {
+        left: 96px;
+    }
+
+    .description_arrow {
+        padding-left: 14px;
+    }
+}

@@ -60,3 +60,22 @@
         width: 860px;
     }
 }
+
+@media(max-width: 600px) {
+    .managing {
+        padding: 0px 19px 80px 19px;
+    }
+
+    .managing h1 {
+        width: 70%;
+        font-size: 30px;
+    }
+
+    .video {
+        width: 560px;
+    }
+
+    .video iframe {
+        width: 560px;
+    }
+}

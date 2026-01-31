@@ -24,7 +24,7 @@
     gap: 19px;
 }
 
-.text_btn button {
+.fst_btn {
     width: 180px;
     height: 40px;
     background-color: #F25C3A;
@@ -33,6 +33,19 @@
     font-family: 'CeraPro';
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.scd_btn {
+    width: 180px;
+    height: 40px;
+    background-color: #F25C3A;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'CeraPro';
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    display: none;
 }
 
 @media(max-width: 900px) {
@@ -46,5 +59,49 @@
 
     .all {
         gap: 21px;
+    }
+}
+
+@media(max-width: 600px) {
+    .about_us {
+        padding: 0px 19px 80px 19px;
+    }
+
+    .text {
+        font-size: 30px;
+    }
+
+    .all {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .fst_btn {
+        display: none;
+    }
+
+    .scd_btn {
+        display: block;
+    }
+
+    .statistics {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media(max-width: 320px) {
+    .statistics {
+        padding: 0px 17px 80px 17px;
+        gap: 30px;
+    }
+
+    .text {
+        font-size: 26px;
+    }
+
+    .all {
+        gap: 30px;
     }
 }

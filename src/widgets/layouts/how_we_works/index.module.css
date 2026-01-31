@@ -32,3 +32,13 @@
         flex-direction: column;
     }
 }
+
+@media(max-width: 600px) {
+    .how_we_works {
+        padding: 0px 19px 80px 19px;
+    }
+
+    .how_we_works h1 {
+        font-size: 30px;
+    }
+}

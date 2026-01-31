@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import css from './index.module.css'
 import { BigCards } from './big_cards'
 import { MiniCards } from './mini_cards'

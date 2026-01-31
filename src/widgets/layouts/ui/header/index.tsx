@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import css from './index.module.css'
 import { Navigation } from "./navigation";
 import { Networks } from "@/shared/ui/social_networks_icons";
@@ -8,14 +7,26 @@ export default function Header() {
     return (
         <header className={css.header}>
             <div className={css.navigation}>
-                <div className="logo">
-                    <Link href={'/'}><Image src='/header/wolfmedia_logo.svg' alt="" width={286} height={70} /></Link>
+
+                <div className={css.burger_menu}>
+                    <Image src='/header/burger-menu.svg' alt="" width={24} height={16} />
+                </div>
+
+                <div className={css.logo}>
+                    <Image src='/header/wolfmedia_logo.svg' alt="" width={286} height={70} />
+                </div>
+
+                <div className={css.logo2}>
+                    <Image src='/header/logo2.svg' alt="" width={40} height={40} />
                 </div>
                 <Navigation />
             </div>
 
             <div className={css.contacts} >
-                <Networks />
+
+                <div className={css.networks}>
+                    <Networks />
+                </div>
 
                 <div className={css.phone}>
                     <Image src='/header/phone-call.svg' alt="" width={24} height={24} />

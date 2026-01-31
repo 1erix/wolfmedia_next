@@ -136,3 +136,30 @@
         gap: 20px;
     }
 }
+
+@media(max-width: 600px) {
+    .left_part {
+        width: 560px;
+        gap: 21px;
+    }
+
+    .form {
+        width: 269px;
+        height: 126px;
+        padding: 20px 21px;
+    }
+
+    .form div {
+        width: 245px;
+    }
+
+    .big_image {
+        width: 560px;
+        height: 315px;
+    }
+
+    .big_image_img {
+        width: 560px;
+        height: 315px;
+    }
+}

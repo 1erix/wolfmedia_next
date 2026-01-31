@@ -56,3 +56,13 @@
         gap: 40px;
     }
 }
+
+@media(max-width: 600px) {
+    .help_brends {
+        padding: 0px 19px 80px 19px;
+    }
+
+    .help_brends h1 {
+        font-size: 30px;
+    }
+}

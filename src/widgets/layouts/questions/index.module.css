@@ -44,3 +44,17 @@
         order: 2
     }
 }
+
+@media(max-width: 600px) {
+    .questions {
+        padding: 0px 19px 80px 19px;
+    }
+
+    .h1 {
+        font-size: 30px;
+    }
+
+    .questions h2 {
+        font-size: 18px;
+    }
+}

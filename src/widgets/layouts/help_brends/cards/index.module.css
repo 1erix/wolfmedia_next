@@ -51,3 +51,30 @@
         padding: 17px 9px;
     }
 }
+
+@media(max-width: 600px) {
+    .cards {
+        gap: 19px;
+    }
+
+    .bgd_img img {
+        width: 63px;
+        height: 63px;
+    }
+
+    .bgd_img {
+        width: 173px;
+        height: 102px;
+        padding: 19px 54px;
+    }
+
+    .text {
+        width: 173px;
+        height: 72px;
+    }
+
+    .text p {
+        padding: 10px 11px;
+        font-size: 16px;
+    }
+}

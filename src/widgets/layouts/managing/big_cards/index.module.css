@@ -79,3 +79,30 @@
         padding: 18px 12px;
     }
 }
+
+@media(max-width: 600px) {
+    .cards_text {
+        gap: 40px;
+    }
+
+    .big_cards {
+        width: 560px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 270px;
+        height: 267px;
+    }
+
+    .bgd_img {
+        width: 270px;
+        height: 165px;
+        padding: 38px 90px;
+    }
+
+    .text {
+        width: 270px;
+        height: 102px;
+    }
+}

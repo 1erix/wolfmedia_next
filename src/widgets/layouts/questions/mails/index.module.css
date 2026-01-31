@@ -40,3 +40,10 @@
         width: 264px;
     }
 }
+
+@media(max-width: 600px) {
+    .mails {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}

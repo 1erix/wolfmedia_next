@@ -4,9 +4,3 @@
     align-items: center;
     padding-right: 49px;
 }
-
-@media(max-width: 900px) {
-    .social_networks {
-        display: none;
-    }
-}

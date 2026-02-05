@@ -163,3 +163,44 @@
         height: 315px;
     }
 }
+
+@media(max-width: 320px) {
+    .left_part {
+        flex-direction: column;
+    }
+
+    .form {
+        width: 290px;
+        max-height: 80px;
+        padding: 10px 23px;
+        text-align: center;
+    }
+
+    .form div {
+        width: 242px;
+        font-size: 14px;
+    }
+
+    .big_image {
+        width: 290px;
+        height: 163px;
+    }
+
+    .small_image {
+        width: 101px;
+        height: 57px;
+    }
+
+    .small_image img {
+        width: 101px;
+        height: 57px;
+    }
+
+    .small_images {
+        gap: 0;
+    }
+
+    .sliders {
+        width: 290px;
+    }
+}

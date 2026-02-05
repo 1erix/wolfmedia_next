@@ -63,3 +63,22 @@
         font-size: 18px;
     }
 }
+
+@media(max-width: 320px) {
+    .communities {
+        padding: 0px 17px 80px 17px;
+        gap: 30px;
+    }
+
+    .communities h1 {
+        font-size: 26px;
+    }
+
+    .mini_text {
+        text-align: center;
+    }
+
+    .mini_text p {
+        font-size: 14px;
+    }
+}

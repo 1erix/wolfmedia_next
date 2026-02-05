@@ -47,3 +47,13 @@
         gap: 30px;
     }
 }
+
+@media(max-width: 320px) {
+    .arrow_h1 h1 {
+        font-size: 13px
+    }
+
+    .mail p {
+        font-size: 11px;
+    }
+}

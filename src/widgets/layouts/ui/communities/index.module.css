@@ -135,3 +135,26 @@
         font-size: 16px;
     }
 }
+
+@media(max-width: 320px) {
+    .all {
+        gap: 15px;
+        width: 300px;
+    }
+
+    .card {
+        width: 138px;
+        height: 87px;
+        padding: 10px 5px;
+        gap: 11px;
+    }
+
+    .card img {
+        width: 37px;
+        height: 37px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+}

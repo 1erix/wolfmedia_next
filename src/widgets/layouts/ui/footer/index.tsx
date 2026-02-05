@@ -18,7 +18,9 @@ export default function Footer() {
             </div>
 
             <div className={css.right_part}>
-                <Networks />
+                <div className={css.networks}>
+                    <Networks />
+                </div>
 
                 <div className={css.phone}>
                     <Image src='/footer/phone-call.svg' alt='' width={24} height={24} />

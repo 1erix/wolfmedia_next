@@ -66,3 +66,23 @@
         font-size: 30px;
     }
 }
+
+@media(max-width: 320px) {
+    .help_brends {
+        padding: 0px 17px 80px 17px;
+        gap: 30px;
+    }
+
+    .help_brends h1 {
+        font-size: 26px;
+    }
+
+    .text_cards {
+        gap: 30px;
+    }
+
+    .p {
+        font-size: 13px;
+        width: 289px;
+    }
+}

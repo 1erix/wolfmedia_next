@@ -149,4 +149,8 @@
     .navigation {
         gap: 47px;
     }
+
+    .navLinks {
+        display: none;
+    }
 }

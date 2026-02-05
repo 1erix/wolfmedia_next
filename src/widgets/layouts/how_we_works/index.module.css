@@ -42,3 +42,13 @@
         font-size: 30px;
     }
 }
+
+@media(max-width: 320px) {
+    .how_we_works {
+        padding: 0px 17px 80px 17px;
+    }
+
+    .how_we_works h1 {
+        font-size: 26px;
+    }
+}

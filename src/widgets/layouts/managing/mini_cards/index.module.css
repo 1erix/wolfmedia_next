@@ -93,3 +93,28 @@
         height: 28px;
     }
 }
+
+@media(max-width: 320px) {
+    .cards_other {
+        gap: 30px;
+    }
+
+    .mini_cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card {
+        width: 290px;
+        height: 50px;
+    }
+
+    .card img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+}

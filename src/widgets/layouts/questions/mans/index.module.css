@@ -144,3 +144,42 @@
         height: 247px;
     }
 }
+
+@media(max-width: 320px) {
+    .all {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .card_mail {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .card {
+        width: 108px;
+        height: 108px;
+        padding: 0;
+    }
+
+    .circle {
+        width: 84px;
+        height: 84px;
+    }
+
+    .mans {
+        width: 59px;
+        height: 100px;
+    }
+
+    .mans img {
+        width: 59px;
+        height: 100px;
+    }
+
+    .firstCard img {
+        padding-top: 15px;
+        width: 70px;
+        height: 98px;
+    }
+}

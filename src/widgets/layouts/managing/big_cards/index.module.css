@@ -106,3 +106,46 @@
         height: 102px;
     }
 }
+
+@media(max-width: 320px) {
+    .cards_text {
+        gap: 30px;
+    }
+
+    .p {
+        font-size: 14px;
+    }
+
+    .big_cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card {
+        display: flex;
+        width: 290px;
+        max-height: 92px;
+    }
+
+    .bgd_img img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .bgd_img {
+        width: 76px;
+        height: 92px;
+        padding: 22px 14px;
+    }
+
+    .text {
+        width: 214px;
+        height: 92px;
+        text-align: left;
+    }
+
+    .text div {
+        font-size: 14px;
+        padding: 5px 16px;
+    }
+}

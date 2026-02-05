@@ -4,3 +4,9 @@
     align-items: center;
     padding-right: 49px;
 }
+
+@media(max-width: 320px) {
+    .social_networks {
+        padding-right: 0;
+    }
+}

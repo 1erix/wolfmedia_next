@@ -58,3 +58,18 @@
         font-size: 18px;
     }
 }
+
+@media(max-width: 320px) {
+    .questions {
+        padding: 0px 17px 80px 17px;
+        gap: 30px;
+    }
+
+    .h1 {
+        font-size: 26px;
+    }
+
+    .questions h2 {
+        font-size: 14px;
+    }
+}

@@ -81,3 +81,35 @@
         justify-content: space-between;
     }
 }
+
+@media(max-width: 320px) {
+    .phone {
+        order: 1;
+    }
+
+    .networks {
+        order: 2;
+    }
+
+    .p p {
+        font-size: 11px;
+    }
+
+    .p {
+        order: 3;
+        left: 55%;
+    }
+
+    .right_part {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+        align-items: start;
+    }
+
+    .footer {
+        flex-wrap: nowrap;
+        height: 138px;
+        gap: 25px;
+    }
+}

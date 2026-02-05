@@ -118,3 +118,37 @@
         padding-left: 14px;
     }
 }
+
+@media(max-width: 320px) {
+    .text_wolfmedia {
+        width: 289px;
+    }
+
+    .text_wolfmedia p {
+        font-size: 13px;
+    }
+
+    .all {
+        max-width: 289px;
+        gap: 15px;
+    }
+
+    .description_arrow div {
+        font-size: 14px;
+        max-width: 214px;
+        max-height: 100px;
+    }
+
+    .left_block {
+        gap: 5px;
+        align-items: start;
+    }
+
+    .left_block::before {
+        left: 73px;
+    }
+
+    .all::before {
+        left: 25%;
+    }
+}

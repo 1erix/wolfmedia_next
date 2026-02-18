@@ -17,3 +17,32 @@ a {
 p {
     font-family: 'Cera Pro', sans-serif;
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+img,
+video,
+svg,
+picture {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

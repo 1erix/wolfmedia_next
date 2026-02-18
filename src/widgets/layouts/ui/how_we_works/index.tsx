@@ -23,14 +23,32 @@ export const Images = () => {
     const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(0)
     const [visibleImages, setVisibleImages] = useState<ImageType[]>([])
     const [extendedImages, setExtendedImages] = useState<ImageType[]>([])
+    const [isMobile, setIsMobile] = useState<boolean>(false)
+
+    useEffect(() => {
+        // Проверяем ширину экрана при загрузке и изменении размера
+        const checkMobile = () => {
+            setIsMobile(window.innerWidth <= 320)
+        }
+
+        checkMobile()
+        window.addEventListener('resize', checkMobile)
+
+        return () => window.removeEventListener('resize', checkMobile)
+    }, [])
 
     useEffect(() => {
         if (IMAGES.length > 0) {
             const extended = [...IMAGES, IMAGES[0]]
             setExtendedImages(extended)
-            setVisibleImages(extended.slice(0, 4))
+            // На мобильных устройствах показываем только 3 картинки
+            if (isMobile) {
+                setVisibleImages(extended.slice(0, 3))
+            } else {
+                setVisibleImages(extended.slice(0, 4))
+            }
         }
-    }, [])
+    }, [isMobile])
 
     const handleSmallImageClick = (visibleIndex: number) => {
         const mainIndex = (currentImageIndex + visibleIndex) % IMAGES.length
@@ -46,10 +64,12 @@ export const Images = () => {
             setCurrentImageIndex(nextIndex)
         }
 
-        const newVisibleImages = extendedImages.slice(nextIndex, nextIndex + 4)
+        // Для мобильных показываем 3 картинки, для остальных - 4
+        const imagesToShow = isMobile ? 3 : 4
+        let newVisibleImages = extendedImages.slice(nextIndex, nextIndex + imagesToShow)
 
-        if (newVisibleImages.length < 4) {
-            const needed = 4 - newVisibleImages.length
+        if (newVisibleImages.length < imagesToShow) {
+            const needed = imagesToShow - newVisibleImages.length
             const fromStart = extendedImages.slice(0, needed)
             newVisibleImages.push(...fromStart)
         }
@@ -66,7 +86,6 @@ export const Images = () => {
         if (indexInExtended >= IMAGES.length) {
             return indexInExtended - IMAGES.length
         }
-
         return indexInExtended
     }
 
@@ -88,7 +107,10 @@ export const Images = () => {
                     {visibleImages.map((item: ImageType, visibleIndex: number) => {
                         const mainIndex = getMainImageIndex(visibleIndex)
                         const isSelected = selectedImageIndex === mainIndex
-                        const isLastInRow = visibleIndex === 3
+                        // На мобильных устройствах последняя картинка (3-я) получает класс last_image
+                        const isLastInRow = isMobile
+                            ? visibleIndex === 2  // на мобильных последняя - 3-я
+                            : visibleIndex === 3  // на десктопе последняя - 4-я
 
                         return (
                             <div

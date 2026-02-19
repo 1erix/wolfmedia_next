@@ -7,23 +7,10 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://wolfmedia-next.vercel.app'),
   title: "Wolfmedia",
   description: "Wolfmedia - издательство новых медиа",
-  openGraph: {
-    title: "WolfMedia",
-    description: "Wolfmedia - издательство новых медиа",
-    url: "https://wolfmedia-next.vercel.app",
-    siteName: "WolfMedia",
-    images: [
-      {
-        url: "/favicon.ico",
-        width: 1200,
-        height: 630,
-        alt: "Wolfmedia Logo",
-      },
-    ],
-    locale: "ru_RU",
-    type: "website",
-  },
-};
+  icons: {
+    icon: '/favicon.ico',
+  }
+}
 
 export const viewport: Viewport = {
   width: 'device-width',

@@ -9,8 +9,25 @@ export const metadata: Metadata = {
   description: "Wolfmedia - издательство новых медиа",
   icons: {
     icon: '/favicon.ico',
-  }
-}
+  },
+  openGraph: {
+    title: "WolfMedia",
+    description: "Wolfmedia - издательство новых медиа",
+    url: "https://wolfmedia-next.vercel.app",
+    siteName: "WolfMedia",
+    images: [
+      {
+        url: "/favicon.ico",  // здесь тоже лучше использовать нормальную картинку
+        width: 1200,
+        height: 630,
+        alt: "Wolfmedia Logo",
+      },
+    ],
+    locale: "ru_RU",
+    type: "website",
+  },
+};
+
 
 export const viewport: Viewport = {
   width: 'device-width',

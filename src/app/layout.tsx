@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "WolfMedia",
     images: [
       {
-        url: "/favicon.png",
+        url: "/favicon.ico",
         width: 1200,
         height: 630,
         alt: "Wolfmedia Logo",
